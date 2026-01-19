@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bracelet Looms | Custom Bracelets, Charms & Slime</title>
+  <meta name="description" content="Bracelet Looms offers custom bracelets, custom charms, and custom slime—made to order." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top" aria-label="Bracelet Looms home">
+        <span class="logo" aria-hidden="true">🧶</span>
+        <span>Bracelet Looms</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#shop">Shop</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#how">How it works</a>
+        <a href="#order">Order</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero" id="top">
+      <div class="hero-text">
+        <h1>Custom bracelets, charms, and slime—made just for you.</h1>
+        <p class="subhead">
+          Pick colors, themes, names, add-ons, and scents. We’ll create something totally yours.
+        </p>
+
+        <div class="hero-cta">
+          <a class="btn primary" href="#order">Request an order</a>
+          <a class="btn ghost" href="#shop">See options</a>
+        </div>
+
+        <ul class="badges">
+          <li>✨ Made-to-order</li>
+          <li>🎨 Tons of colors</li>
+          <li>🧩 Add charms + names</li>
+        </ul>
+      </div>
+
+      <div class="hero-card" role="img" aria-label="Bracelet Looms featured items">
+        <div class="card">
+          <div class="chip">Popular</div>
+          <h3>Starter Favorites</h3>
+          <p>Beaded name bracelets • Clay charm sets • Butter slime</p>
+          <div class="price-row">
+            <span class="price">Starting at $</span>
+            <span class="note">(set your prices)</span>
+          </div>
+          <p class="tiny">Tip: Add your Instagram/TikTok link in the Contact section.</p>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="shop">
+      <div class="section-head">
+        <h2>What we make</h2>
+        <p>Choose a category, then customize details in the order form.</p>
+      </div>
+
+      <div class="grid cards">
+        <article class="product-card">
+          <h3>Custom Bracelets</h3>
+          <p>Names, initials, colors, patterns, sizes, matching sets.</p>
+          <ul>
+            <li>Beaded, braided, stretch, or charm styles</li>
+            <li>Theme sets (sports, pastel, holiday, etc.)</li>
+            <li>Packaging option for gifts</li>
+          </ul>
+          <a class="link" href="#order">Customize a bracelet →</a>
+        </article>
+
+        <article class="product-card">
+          <h3>Custom Charms</h3>
+          <p>Pick shapes, colors, letters, and themes for your bracelet, bag, or keychain.</p>
+          <ul>
+            <li>Clay-style charm sets</li>
+            <li>Letter + icon combos</li>
+            <li>Seasonal collections</li>
+          </ul>
+          <a class="link" href="#order">Customize charms →</a>
+        </article>
+
+        <article class="product-card">
+          <h3>Custom Slime</h3>
+          <p>Choose texture, scent, color, and add-ins (glitter, foam beads, etc.).</p>
+          <ul>
+            <li>Butter, cloud, clear, floam</li>
+            <li>Scented or unscented</li>
+            <li>Add-ins + mix-ins</li>
+          </ul>
+          <a class="link" href="#order">Customize slime →</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section alt" id="gallery">
+      <div class="section-head">
+        <h2>Gallery</h2>
+        <p>Add your own photos later. (Place image files in the repo and update the paths.)</p>
+      </div>
+
+      <div class="gallery">
+        <div class="ph">Photo 1</div>
+        <div class="ph">Photo 2</div>
+        <div class="ph">Photo 3</div>
+        <div class="ph">Photo 4</div>
+      </div>
+
+      <p class="tiny center">
+        Want this to show real images? Add a folder named <code>images</code> and replace the placeholders.
+      </p>
+    </section>
+
+    <section class="section" id="how">
+      <div class="section-head">
+        <h2>How it works</h2>
+      </div>
+
+      <div class="steps">
+        <div class="step">
+          <div class="num">1</div>
+          <h3>Pick your item</h3>
+          <p>Bracelet, charm set, slime—or bundle them.</p>
+        </div>
+        <div class="step">
+          <div class="num">2</div>
+          <h3>Customize</h3>
+          <p>Colors, names, themes, scents, textures, add-ons.</p>
+        </div>
+        <div class="step">
+          <div class="num">3</div>
+          <h3>We create it</h3>
+          <p>We confirm details, then make your custom order.</p>
+        </div>
+        <div class="step">
+          <div class="num">4</div>
+          <h3>Pickup/Ship</h3>
+          <p>Add your delivery options and turnaround time here.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="order">
+      <div class="section-head">
+        <h2>Request an order</h2>
+        <p>Fill this out and tap “Send request.” It opens your email app with everything pre-filled.</p>
+      </div>
+
+      <form class="order-form" id="orderForm">
+        <div class="row">
+          <label>
+            Your name
+            <input type="text" name="name" required placeholder="e.g., Jordan" />
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required placeholder="you@example.com" />
+          </label>
+        </div>
+
+        <div class="row">
+          <label>
+            What are you ordering?
+            <select name="category" required>
+              <option value="" selected disabled>Select one…</option>
+              <option>Custom Bracelet</option>
+              <option>Custom Charms</option>
+              <option>Custom Slime</option>
+              <option>Bundle (Bracelet + Charms)</option>
+              <option>Bundle (Bracelet + Slime)</option>
+              <option>Bundle (All three)</option>
+            </select>
+          </label>
+
+          <label>
+            Quantity
+            <input type="number" name="quantity" min="1" value="1" required />
+          </label>
+        </div>
+
+        <label>
+          Custom details
+          <textarea name="details" rows="6" required
+            placeholder="Bracelet: colors, name/letters, size (kids/adult), theme, charms…
+Charms: shapes, letters, colors…
+Slime: texture, color, scent, add-ins…"></textarea>
+        </label>
+
+        <div class="row">
+          <label>
+            Needed by (optional)
+            <input type="date" name="neededBy" />
+          </label>
+
+          <label>
+            Pickup or shipping? (optional)
+            <select name="delivery">
+              <option value="" selected>Choose…</option>
+              <option>Pickup</option>
+              <option>Shipping</option>
+              <option>Either</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="form-actions">
+          <button type="submit" class="btn primary">Send request</button>
+          <button type="button" class="btn ghost" id="fillExample">Fill example</button>
+        </div>
+
+        <p class="tiny">
+          Update the email address in <code>script.js</code> to your business email.
+        </p>
+      </form>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="section-head">
+        <h2>Contact</h2>
+        <p>Drop your socials here so people can DM you and see your latest creations.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Business Email</h3>
+          <p><a href="#" id="emailLink">your-email@example.com</a></p>
+          <p class="tiny">Replace this with your real email in <code>script.js</code>.</p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Instagram / TikTok</h3>
+          <p>
+            <a class="link" href="#" onclick="return false;">@braceletlooms</a><br/>
+            <span class="tiny">Replace with your real handle.</span>
+          </p>
+        </div>
+
+        <div class="contact-card">
+          <h3>Turnaround</h3>
+          <p>Typical: <strong>__ days</strong></p>
+          <p class="tiny">Add your real estimate and shipping/pickup details.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Bracelet Looms. All custom-made with care 💛</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
